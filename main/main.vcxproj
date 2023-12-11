@@ -128,6 +128,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main_oganesyan.cpp" />
+    <ClCompile Include="Tkacheva.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main_oganesyan.h" />
