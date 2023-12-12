@@ -14,7 +14,7 @@ bool compareDegrees(const pair<int, int>& a, const pair<int, int>& b) {
     return a.first > b.first;
 }
 
-pair<vector<int>, int> welsh_powell(vector<Edge2> edges, int V) {
+pair<vector<int>, int> GTS::welsh_powell(vector<Edge2> edges, int V) {
     vector<pair<int, int>> degrees;
     for (int i = 0; i < V; ++i) {
         int degree = 0;
