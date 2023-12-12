@@ -75,9 +75,15 @@ int main()
     cout << "----------------------" << endl;
     for (int i = 0; i < colors.size(); i++) {
         cout << "Vertex " << i << " -> Color: " << colors[i] << endl;
-    }
+    } 
     cout << "\ngerdt" << endl;
-    gts.welsh_powell(edges, V);
+    auto result = gts.welsh_powell(edges, V);
+ 
+    for (int i = 0; i < V; ++i) {
+        cout << "Vertex " << i + 1 << " is colored with color " << result.first[i] << endl;
+    }
+    
+    cout << "Number of colors used: " << result.second << endl;
 
     vector<Edge1> edges1 = vecOfVec1;
     Graph graph(edges1, V);

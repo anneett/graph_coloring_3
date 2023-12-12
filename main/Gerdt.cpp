@@ -57,14 +57,3 @@ pair<vector<int>, int> GTS::welsh_powell(vector<Edge2> edges, int V) {
     return make_pair(coloring, current_color + 1);
 }
 
-
-//auto result = welsh_powell(edges, V);
-//
-//cout << "Step-by-step vertex coloring of a graph:" << endl;
-//cout << "----------------------------------------" << endl;
-//for (int i = 0; i < V; ++i) {
-//    cout << "Vertex " << i + 1 << " is colored with color " << result.first[i] << endl;
-//}
-//cout << "----------------------------------------" << endl;
-//
-//cout << "Number of colors used: " << result.second << endl;

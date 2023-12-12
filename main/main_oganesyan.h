@@ -31,7 +31,7 @@ public:
 
 	unordered_map<int, int> Jones_Plassman(int vertex_number, vector<vector<int>> edges_vector);
 
-	void welsh_powell(vector<Edge2> edges, int V);
+	pair<vector<int>, int> welsh_powell(vector<Edge2> edges, int V);
 
 	void colorGraph(Graph const& graph, int n);
 
