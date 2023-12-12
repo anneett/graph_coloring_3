@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 #include "amirova.h"
-#include "team_oganesyan.h"
+#include "main_oganesyan.h"
 #include "grigorova.h"
 #include "Ankudoviche.h"
 using namespace std;
