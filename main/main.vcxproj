@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Gerdt.cpp" />
     <ClCompile Include="main_oganesyan.cpp" />
     <ClCompile Include="Tkacheva.cpp" />
   </ItemGroup>
