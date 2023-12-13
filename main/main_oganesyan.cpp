@@ -1,6 +1,7 @@
 #include <iostream>
 #include <vector>
-#include "amirova.h"
+#include <unordered_map>
+#include "Amirova.h"
 #include "main_oganesyan.h"
 #include "grigorova.h"
 #include "Ankudoviche.h"

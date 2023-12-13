@@ -1,7 +1,7 @@
 #pragma once
 
 #include <iostream>
-#include "amirova.h"
+#include "Amirova.h"
 #include "grigorova.h"
 
 using namespace std;
