@@ -3,7 +3,7 @@
 #include <unordered_map>
 #include "Amirova.h"
 #include "main_oganesyan.h"
-#include "grigorova.h"
+#include "Grigorova.h"
 #include "Ankudoviche.h"
 using namespace std;
 
@@ -90,10 +90,11 @@ int main()
     Graph graph(edges1, V);
 
     cout << "grigorova" << endl;
-
-    cout << "Step-by-step vertex coloring of a graph:" << endl
-        << "***********************************" << endl;
-    gts.colorGraph(graph, V);
+    unordered_map <int, int> vertix_coloring;
+    vertix_coloring = gts.colorGraph(graph, V);
+    for (int i = 0; i < vertix_coloring.size(); i++) {
+        cout << "Vertex " << i << " is colored with color " << vertix_coloring[i] << endl;
+    }
     cout << "***********************************" << endl;
 
     cout << "ankudovich" << endl;
