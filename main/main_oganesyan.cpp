@@ -4,7 +4,7 @@
 #include "Amirova.h"
 #include "main_oganesyan.h"
 #include "grigorova.h"
-#include "Ankudoviche.h"
+#include "Ankudovich.h"
 using namespace std;
 
 int main()
@@ -99,7 +99,11 @@ int main()
     cout << "ankudovich" << endl;
     cout << "Coloring of graph:" << endl;
 
-    minigraph.greedyColoring();
+    int* result2;
+    result2 = minigraph.greedyColoring();
+
+    for (int u = 0; u < V; u++)
+        cout << "Vertex " << u << " ---> Color " << result2[u] << endl;
 
     return 0;
 }

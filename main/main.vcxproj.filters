@@ -27,12 +27,18 @@
     <ClCompile Include="Amirova.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="Ankudovich.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main_oganesyan.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
     <ClInclude Include="Amirova.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Ankudovich.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>
