@@ -33,7 +33,7 @@ public:
 
 	pair<vector<int>, int> welsh_powell(vector<Edge2> edges, int V);
 
-	void colorGraph(Graph const& graph, int n);
+	unordered_map<int, int> colorGraph(Graph const& graph, int n);
 
 	//void addEdge(int v, int w);
 

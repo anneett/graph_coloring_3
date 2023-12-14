@@ -129,11 +129,13 @@
   <ItemGroup>
     <ClCompile Include="Amirova.cpp" />
     <ClCompile Include="Gerdt.cpp" />
+    <ClCompile Include="Grigorova.cpp" />
     <ClCompile Include="main_oganesyan.cpp" />
     <ClCompile Include="Tkacheva.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Amirova.h" />
+    <ClInclude Include="Grigorova.h" />
     <ClInclude Include="main_oganesyan.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
