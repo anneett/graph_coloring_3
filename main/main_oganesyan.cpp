@@ -4,7 +4,7 @@
 #include "Amirova.h"
 #include "main_oganesyan.h"
 #include "Grigorova.h"
-#include "Ankudoviche.h"
+#include "Ankudovich.h"
 using namespace std;
 
 int main()
